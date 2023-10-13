@@ -1,0 +1,120 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.blok{ 
+  display: flex;
+  grid-gap: 0 50px;
+  padding-right: 72px;
+}
+
+.blok2{
+  display: flex;
+  grid-gap: 0 50px;
+  padding-left: 72px;
+}
+
+
+.logotip{
+  display: flex;
+  justify-content: center;
+  left: 48px;  
+  padding-bottom: 6px;
+}
+
+.nav{
+  max-height: 110px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 26px;
+  padding-top: 20px;
+}
+
+.nav a{
+  color:rgba(48, 48, 48, 1);
+}
+
+.header_info {
+  padding-top: 205px;
+  background-image: url(./img/Sea.png);
+  min-height: 850px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.q2 {
+  width: 100%;
+  background-color: rgba(52, 198, 189, 0.8);
+  text-align: center;
+  padding-bottom: 23px;
+}
+
+.q2 h1{
+  width: 610px;
+  margin: 0 auto;
+  padding-top: 44px;
+  padding-bottom: 20px;
+  color: #FEFEFE; 
+  font-family: Spectral; 
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 42.10px;
+  word-wrap: break-word;
+}
+
+.q2 h3{
+  width: 532px;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 24px;
+  color: #FDFDFD;
+  font-size: 22px;
+  font-family: Open Sans;
+  font-weight: 400;
+  word-wrap: break-word;
+}
+
+.currort{
+  background-image: url(./img/Flowers.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 138px;
+  padding-bottom: 170px;
+}
+
+
+.container h1{
+  font-family: Spectral;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0px;
+}
+
+.Veranda{
+  padding-top: 27px;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: royalblue;
+  transition: .08s ease-in-out;
+}
+
+a:active{
+  color: greenyellow;
+}
